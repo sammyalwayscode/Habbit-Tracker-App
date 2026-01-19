@@ -33,7 +33,7 @@ export default function AddHabbitScreen() {
         HABBIT_COLLECTION_ID,
         ID.unique(),
         {
-          $id: user.$id,
+          user_id: user.$id,
           title,
           description,
           frequency,
